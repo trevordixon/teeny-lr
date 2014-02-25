@@ -3,6 +3,8 @@ Fork of the abandoned [mklabs/tiny-lr](https://github.com/mklabs/tiny-lr).
 teeny-lr
 --------
 
+Published on npm as teeny-lr.
+
 This script manages a tiny [LiveReload](http://livereload.com/) server
 implementation you can spawn in the background.
 
