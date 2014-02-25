@@ -1,11 +1,11 @@
 {
-  "author": "mklabs",
-  "name": "tiny-lr",
-  "description": "Tiny LiveReload server, background-friendly",
-  "version": "0.0.5",
-  "homepage": "https://github.com/mklabs/tiny-lr",
+  "author": "trevordixon",
+  "name": "teeny-lr",
+  "description": "Tiny LiveReload server, background-friendly. Forked from mklabs/tiny-lr.",
+  "version": "0.0.6",
+  "homepage": "https://github.com/trevordixon/teeny-lr",
   "repository": {
-    "url": "git://github.com/mklabs/tiny-lr.git"
+    "url": "git://github.com/trevordixon/teeny-lr.git"
   },
   "bin": "./bin/tiny-lr",
   "main": "./lib",
@@ -33,6 +33,6 @@
   },
   "licenses": [{
     "type": "MIT",
-    "url": "https://github.com/mklabs/tiny-lr/blob/master/LICENSE-MIT"
+    "url": "https://github.com/trevordixon/teeny-lr/blob/master/LICENSE-MIT"
   }]
 }

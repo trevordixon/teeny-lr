@@ -380,6 +380,7 @@ request(server)
 
 ---
 
+- 2014-02-01 - v0.0.6 - [PR #31](https://github.com/mklabs/tiny-lr/pull/31) - Use WSS when livereload.js is on HTTPS
 - 2013-01-21 - v0.0.5 - [PR #18](https://github.com/mklabs/tiny-lr/pull/18) / [PR #21](https://github.com/mklabs/tiny-lr/pull/21) - https support / expose reload flags through options
 - 2013-01-21 - v0.0.4 - middleware support
 - 2013-01-20 - v0.0.3 - serve livereload from repo (#4)
