@@ -1,5 +1,7 @@
-tiny-lr
--------
+Fork of the abandoned [mklabs/tiny-lr](https://github.com/mklabs/tiny-lr).
+
+teeny-lr
+--------
 
 This script manages a tiny [LiveReload](http://livereload.com/) server
 implementation you can spawn in the background.
@@ -10,11 +12,11 @@ It exposes:
   [@FGRibreau](https://github.com/FGRibreau) [pid.js
   gist](https://gist.github.com/1846952))
 
-- [Grunt tasks](https://github.com/mklabs/tiny-lr#using-grunt) to start the server and trigger reload notification. Every task
+- [Grunt tasks](https://github.com/trevordixon/teeny-lr#using-grunt) to start the server and trigger reload notification. Every task
   name is prefixed by `tinylr-`.
 
-- [Generic targets](https://github.com/mklabs/tiny-lr#using-make) to include in
-  your Makefile (`include node_modules/tiny-lr/tasks/tiny-lr.mk`)
+- [Generic targets](https://github.com/trevordixon/teeny-lr#using-make) to include in
+  your Makefile (`include node_modules/teeny-lr/tasks/tiny-lr.mk`)
 
 It doesn't have any watch ability, it must be done at the build process or
 application level.
@@ -68,7 +70,7 @@ use the server programmtically).
 You can start the server using the binary provided, or use your own start script.
 
 ```js
-var tinylr = require('tiny-lr');
+var tinylr = require('teeny-lr');
 
 // standard LiveReload port
 var port = 35729;
